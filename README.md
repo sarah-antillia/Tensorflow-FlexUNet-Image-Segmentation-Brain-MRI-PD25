@@ -29,7 +29,7 @@ This is because it inherently treats the background as one category and your sin
 a second category. In essence, your single-class segmentation model will operate with two categorized classes within our Multiclass UNet framework.
 <br>
 <br>
-Furthermore, as shown in an experiment <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Multiple-Sclerosis-Brain-MRI-Flair">
+Furthermore, an experiment <a href="https://github.com/sarah-antillia/TensorFlow-FlexUNet-Image-Segmentation-Multiple-Sclerosis-Brain-MRI-Flair">
 TensorFlow-FlexUNet-Image-Segmentation-Multiple-Sclerosis-Brain-MRI-Flair 
 </a>, our multiclass segmentation model based on catgorized masks showed better segmentation result than 
 that of the singleclass model
