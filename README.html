@@ -1,4 +1,4 @@
-<h2>Tensorflow-FlexUNet-Image-Segmentation-Brain-MRI-PD25 (2025/09/14)</h2>
+<h2>TensorFlow-FlexUNet-Image-Segmentation-Brain-MRI-PD25 (2025/09/14)</h2>
 
 This is the first experiment of Image Segmentation for Brain-MRI-PD25 based on 
 our <a href="./src/TensorFlowFlexUNet.py">TensorFlowFlexUNet</a>
@@ -51,21 +51,21 @@ PNG dataset appear similar to the ground truth masks.<br>
 <th>Prediction: inferred_mask</th>
 </tr>
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/101104.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/101104.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/101104.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/101104.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/101104.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/101104.png" width="320" height="auto"></td>
 </tr>
 
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/101163.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/101163.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/101163.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/101163.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/101163.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/101163.png" width="320" height="auto"></td>
 </tr>
 
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1002_0.3_0.3_101131.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1002_0.3_0.3_101131.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1002_0.3_0.3_101131.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1002_0.3_0.3_101131.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1002_0.3_0.3_101131.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1002_0.3_0.3_101131.png" width="320" height="auto"></td>
 </tr>
 </table>
 
@@ -135,36 +135,36 @@ Tensorflow-Image-Segmentation-Brain-MRI-PD25
 </a>
 <br><br>
 <b>Brain-MRI-PD25 Statistics</b><br>
-<img src ="./projects/TensorflowFlexUNet/Brain-MRI-PD25/Brain-MRI-PD25_Statistics.png" width="512" height="auto"><br>
+<img src ="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/Brain-MRI-PD25_Statistics.png" width="512" height="auto"><br>
 <br>
 As shown above, the number of images of train and valid datasets is not so large to use for a training set of our segmentation model.
 <br>
 <br>
 <b>Train_images_sample</b><br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/asset/train_images_sample.png" width="1024" height="auto">
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/asset/train_images_sample.png" width="1024" height="auto">
 <br>
 <b>Train_masks_sample</b><br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/asset/train_masks_sample.png" width="1024" height="auto">
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/asset/train_masks_sample.png" width="1024" height="auto">
 <br>
 
 <h3>
-3 Train TensorflowUNet Model
+3 Train TensorFlowUNet Model
 </h3>
- We have trained Brain-MRI-PD25TensorflowUNet Model by using the following
-<a href="./projects/TensorflowFlexUNet/Brain-MRI-PD25/train_eval_infer.config"> <b>train_eval_infer.config</b></a> file. <br>
-Please move to ./projects/TensorflowFlexUNet/Brain-MRI-PD25and run the following bat file.<br>
+ We have trained Brain-MRI-PD25TensorFlowUNet Model by using the following
+<a href="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/train_eval_infer.config"> <b>train_eval_infer.config</b></a> file. <br>
+Please move to ./projects/TensorFlowFlexUNet/Brain-MRI-PD25and run the following bat file.<br>
 <pre>
 >1.train.bat
 </pre>
 , which simply runs the following command.<br>
 <pre>
->python ../../../src/TensorflowUNetTrainer.py ./train_eval_infer.config
+>python ../../../src/TensorFlowUNetTrainer.py ./train_eval_infer.config
 </pre>
 <hr>
 
 <b>Model parameters</b><br>
 Defined a small <b>base_filters = 16</b> and large <b>base_kernels = (9,9)</b> for the first Conv Layer of Encoder Block of 
-<a href="./src/TensorflowUNet.py">TensorflowUNet.py</a> 
+<a href="./src/TensorFlowUNet.py">TensorFlowUNet.py</a> 
 and a large num_layers (including a bridge between Encoder and Decoder Blocks).
 <pre>
 [model]
@@ -193,7 +193,7 @@ learning_rate  = 0.00007
 Disabled our online augmentation.  
 <pre>
 [model]
-model         = "TensorflowUNet"
+model         = "TensorFlowUNet"
 generator     = False
 </pre>
 
@@ -257,36 +257,36 @@ By using this callback, on every epoch_change, the inference procedure can be ca
 
 
 In this experiment, the training process was terminated at epoch 50.<br><br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/asset/train_console_output_at_epoch50.png" width="720" height="auto"><br>
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/asset/train_console_output_at_epoch50.png" width="720" height="auto"><br>
 <br>
 
-<a href="./projects/TensorflowFlexUNet/Brain-MRI-PD25/eval/train_metrics.csv">train_metrics.csv</a><br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/eval/train_metrics.png" width="520" height="auto"><br>
+<a href="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/eval/train_metrics.csv">train_metrics.csv</a><br>
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/eval/train_metrics.png" width="520" height="auto"><br>
 
 <br>
-<a href="./projects/TensorflowFlexUNet/Brain-MRI-PD25/eval/train_losses.csv">train_losses.csv</a><br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/eval/train_losses.png" width="520" height="auto"><br>
+<a href="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/eval/train_losses.csv">train_losses.csv</a><br>
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/eval/train_losses.png" width="520" height="auto"><br>
 
 <br>
 
 <h3>
 4 Evaluation
 </h3>
-Please move to a <b>./projects/TensorflowFlexUNet/Brain-MRI-PD25</b> folder,<br>
-and run the following bat file to evaluate TensorflowUNet model for Brain-MRI-PD25.<br>
+Please move to a <b>./projects/TensorFlowFlexUNet/Brain-MRI-PD25</b> folder,<br>
+and run the following bat file to evaluate TensorFlowUNet model for Brain-MRI-PD25.<br>
 <pre>
 ./2.evaluate.bat
 </pre>
 This bat file simply runs the following command.
 <pre>
-python ../../../src/TensorflowUNetEvaluator.py ./train_eval_infer_aug.config
+python ../../../src/TensorFlowUNetEvaluator.py ./train_eval_infer_aug.config
 </pre>
 
 Evaluation console output:<br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/asset/evaluate_console_output_at_epoch50.png" width="720" height="auto">
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/asset/evaluate_console_output_at_epoch50.png" width="720" height="auto">
 <br><br>Image-Segmentation-Brain-MRI-PD25
 
-<a href="./projects/TensorflowFlexUNet/Brain-MRI-PD25/evaluation.csv">evaluation.csv</a><br>
+<a href="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/evaluation.csv">evaluation.csv</a><br>
 
 The loss (bce_dice_loss) to this Brain-MRI-PD25/test was very low, but dice_coef very high as shown below.
 <br>
@@ -298,24 +298,24 @@ dice_coef_multiclass,0.9977
 <h3>
 5 Inference
 </h3>
-Please move to a <b>./projects/TensorflowFlexUNet/Brain-MRI-PD25</b> folder<br>
-,and run the following bat file to infer segmentation regions for images by the Trained-TensorflowUNet model for Brain-MRI-PD25.<br>
+Please move to a <b>./projects/TensorFlowFlexUNet/Brain-MRI-PD25</b> folder<br>
+,and run the following bat file to infer segmentation regions for images by the Trained-TensorFlowUNet model for Brain-MRI-PD25.<br>
 <pre>
 ./3.infer.bat
 </pre>
 This simply runs the following command.
 <pre>
-python ../../../src/TensorflowUNetInferencer.py ./train_eval_infer_aug.config
+python ../../../src/TensorFlowUNetInferencer.py ./train_eval_infer_aug.config
 </pre>
 <hr>
 <b>mini_test_images</b><br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/asset/mini_test_images.png" width="1024" height="auto"><br>
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/asset/mini_test_images.png" width="1024" height="auto"><br>
 <b>mini_test_mask(ground_truth)</b><br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/asset/mini_test_masks.png" width="1024" height="auto"><br>
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/asset/mini_test_masks.png" width="1024" height="auto"><br>
 
 <hr>
 <b>Inferred test masks</b><br>
-<img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/asset/mini_test_output.png" width="1024" height="auto"><br>
+<img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/asset/mini_test_output.png" width="1024" height="auto"><br>
 <br>
 <hr>
 <b>Enlarged images and masks </b><br>
@@ -328,36 +328,36 @@ python ../../../src/TensorflowUNetInferencer.py ./train_eval_infer_aug.config
 </tr>
 
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/101090.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/101090.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/101090.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/101090.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/101090.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/101090.png" width="320" height="auto"></td>
 </tr>
 
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/101168.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/101168.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/101168.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/101168.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/101168.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/101168.png" width="320" height="auto"></td>
 </tr>
 
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1001_0.3_0.3_101119.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1001_0.3_0.3_101119.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1001_0.3_0.3_101119.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1001_0.3_0.3_101119.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1001_0.3_0.3_101119.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1001_0.3_0.3_101119.png" width="320" height="auto"></td>
 </tr>
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1002_0.3_0.3_101137.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1002_0.3_0.3_101137.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1002_0.3_0.3_101137.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1002_0.3_0.3_101137.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1002_0.3_0.3_101137.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1002_0.3_0.3_101137.png" width="320" height="auto"></td>
 </tr>
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1003_0.3_0.3_101116.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1003_0.3_0.3_101116.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1003_0.3_0.3_101116.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1003_0.3_0.3_101116.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1003_0.3_0.3_101116.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1003_0.3_0.3_101116.png" width="320" height="auto"></td>
 </tr>
 <tr>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1004_0.3_0.3_101135.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1004_0.3_0.3_101135.png" width="320" height="auto"></td>
-<td><img src="./projects/TensorflowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1004_0.3_0.3_101135.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/images/barrdistorted_1004_0.3_0.3_101135.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test/masks/barrdistorted_1004_0.3_0.3_101135.png" width="320" height="auto"></td>
+<td><img src="./projects/TensorFlowFlexUNet/Brain-MRI-PD25/mini_test_output/barrdistorted_1004_0.3_0.3_101135.png" width="320" height="auto"></td>
 </tr>
 </table>
 <hr>
